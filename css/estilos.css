@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: url(../images/fundo.jpg);
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background: #285962;
+}
